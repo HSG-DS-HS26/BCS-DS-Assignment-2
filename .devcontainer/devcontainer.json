@@ -1,0 +1,26 @@
+{
+  "name": "BCS-DS-Assignment-2",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "none",
+      "installGradle": true,
+      "gradleVersion": "9.7"
+    },
+    "ghcr.io/va-h/devcontainers-features/uv:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  },
+  "forwardPorts": [
+    19841,
+    19842,
+    19843,
+    19844
+  ],
+  "postCreateCommand": "./gradlew test"
+}

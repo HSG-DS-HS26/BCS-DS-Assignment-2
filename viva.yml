@@ -1,0 +1,23 @@
+version: 1
+
+goals:
+  - id: search-engine-components
+    level: analyse
+    goal: >
+      explain the main components of a hypermedia search engine, their roles, how they interact.
+  - id: rest
+    level: analyse
+    goal: > 
+      analyze which constraints of the REST architectural style impact or enable the design of search engines.
+  - id: api-specification
+    level: create
+    goal: >
+      design an API specification for a hypermedia search engine. The created API specification should correspond to a RESTful Web service. In particular, it should follow good practices concerning naming, methods, status codes, inputs, and responses and the student should be able to justify the design choices.
+  - id: search-engine-implementation
+    level: create
+    goal: >
+      implement a hypermedia search engine following a REST API specification and validate that the created search engine corresponds to the specification.
+  - id: multithreading
+    level: evaluate
+    goal: >
+      implement a parallelized version of a Web crawler using multithreading. Measure the impact of parallelism on the time required to crawl a fixed hypermedia environment.

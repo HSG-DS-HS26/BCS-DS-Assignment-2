@@ -1,0 +1,7 @@
+.gradle/
+build/
+
+hypermedia-environment/*
+hypermedia-environment
+
+.idea/
