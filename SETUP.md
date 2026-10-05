@@ -45,7 +45,7 @@ The TA must be able to open the repository before the deadline.
 
 ## 4. Clone the hypermedia environment
 
-Clone the [`hypermedia-environment`](https://github.com/JeremyLemee/hypermedia-environment). Follow its [`README`](https://github.com/JeremyLemee/hypermedia-environment/blob/main/README.md) to get it started. Your experiments will need to happen when the hypermedia-environment servers are running on your machine.
+Clone the [`hypermedia-environment`](https://github.com/HSG-DS-HS26/hypermedia-environment). Follow its [`README`](https://github.com/HSG-DS-HS26/hypermedia-environment/blob/main/README.md) to get it started. Your experiments will need to happen when the hypermedia-environment servers are running on your machine.
 
 ## 5. Work on your project
 
